@@ -1,26 +1,20 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
         // Первое задание
 
 
-        {
+
             System.out.println("\nTask 1\n");
-            int[] weights = new int[2];
+            int[] weights = new int[3];
             double[] voltage = {1.57, 7.654, 9.986};
-            int[] room = new int[5];
+            int[] room = new int[6];
 
-        }
 
-        {
 
-            // Второе задание
+                // Второе задание
 
             System.out.println("\nTask 2\n");
-            int[] weights = new int[3];
             weights[0] = 1;
             weights[1] = 2;
             weights[2] = 3;
@@ -32,7 +26,7 @@ public class Main {
                 System.out.print(weights[i] + ", ");
 
             }
-            double[] voltage = {1.57, 7.654, 9.986};
+            // double[] voltage = {1.57, 7.654, 9.986};
             for (int i = 0; i <= 2; i++) {
                 if (i == voltage.length - 1) {
                     System.out.println(voltage[i]);
@@ -41,7 +35,7 @@ public class Main {
                 System.out.print(voltage[i] + ", ");
             }
 
-            int[] room = new int[6];
+            // int[] room = new int[6];
             room[0] = 15;
             room[1] = 25;
             room[2] = 30;
@@ -55,13 +49,13 @@ public class Main {
                 }
                 System.out.print(room[i] + ", ");
             }
-        }
 
-        {
+
+
             // Третье задание
 
             System.out.println("\nTask 3\n");
-            int[] weights = new int[3];
+            // int[] weights = new int[3];
             weights[0] = 1;
             weights[1] = 2;
             weights[2] = 3;
@@ -73,7 +67,7 @@ public class Main {
                 System.out.print(weights[i] + ", ");
 
             }
-            double[] voltage = {1.57, 7.654, 9.986};
+            // double[] voltage = {1.57, 7.654, 9.986};
             for (int i = 2; i >= 0; i--) {
                 if (i == 0) {
                     System.out.println(voltage[i]);
@@ -82,7 +76,7 @@ public class Main {
                 System.out.print(voltage[i] + ", ");
             }
 
-            int[] room = new int[6];
+            // int[] room = new int[6];
             room[0] = 15;
             room[1] = 25;
             room[2] = 30;
@@ -96,11 +90,11 @@ public class Main {
                 }
                 System.out.print(room[i] + ", ");
             }
-        }
-        {
+
+
             // Четвертое задание
             System.out.println("\nTask 4\n");
-            int[] weights = new int[3];
+            // int[] weights = new int[3];
             weights[0] = 1;
             weights[1] = 2;
             weights[2] = 3;
@@ -109,10 +103,11 @@ public class Main {
                     System.out.print(weights[i] + ", ");
 
                 }else {
-                    System.out.print(weights[i] + 1 + ", ");
+                    weights [i] = weights[i] + 1;
+                    System.out.print(weights[i] + ", ");
                 }
             }
-        }
+
 
 
     }
